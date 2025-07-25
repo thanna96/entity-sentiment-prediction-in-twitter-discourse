@@ -61,13 +61,17 @@ This project explores entity-level sentiment analysis in Twitter data using grap
 
 ## Project Structure
 
-├── data/ # Preprocessed graph data and raw input files
-├── models/ # GNN model definitions (GraphSAGE, R-GCN, etc.)
-├── notebooks/ # Jupyter notebooks for EDA and visualization
-├── scripts/ # Training and evaluation scripts
-├── utils/ # Graph construction, feature extraction, helpers
+
+```text
+.
+├── data/            # Preprocessed graph data and raw input files
+├── models/          # GNN model definitions (GraphSAGE, R-GCN, etc.)
+├── notebooks/       # Jupyter notebooks for EDA and visualization
+├── scripts/         # Training and evaluation scripts
+├── utils/           # Graph construction, feature extraction, helpers
 ├── requirements.txt # Project dependencies
-└── README.md # Project overview
+└── README.md        # Project overview
+```
 
 ## Installation
 
