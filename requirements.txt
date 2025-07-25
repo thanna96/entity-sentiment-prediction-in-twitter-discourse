@@ -1,0 +1,10 @@
+torch>=1.12
+torch-geometric>=2.1
+transformers
+scikit-learn
+pandas
+networkx
+matplotlib
+umap-learn
+seaborn
+tqdm

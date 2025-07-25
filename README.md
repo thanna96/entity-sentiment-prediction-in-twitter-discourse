@@ -58,3 +58,30 @@ This project explores entity-level sentiment analysis in Twitter data using grap
 - Kipf & Welling, ICLR 2017 [Kipf2017]  
 - Zhao et al., EMNLP 2022 [Zhao2022]  
 - Cohen et al., NeurIPS D&B 2022 [Metscov2022]
+
+## Project Structure
+
+├── data/ # Preprocessed graph data and raw input files
+├── models/ # GNN model definitions (GraphSAGE, R-GCN, etc.)
+├── notebooks/ # Jupyter notebooks for EDA and visualization
+├── scripts/ # Training and evaluation scripts
+├── utils/ # Graph construction, feature extraction, helpers
+├── requirements.txt # Project dependencies
+└── README.md # Project overview
+
+## Installation
+
+1. Clone the repository:
+git clone https://github.com/your-username/twitter-entity-sentiment-gnn.git
+cd twitter-entity-sentiment-gnn
+
+2. Create a virtual environment and activate it:
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+3. Install dependencies:
+pip install -r requirements.txt
+
+## Usage
+
+ToDo
